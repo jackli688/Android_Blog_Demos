@@ -149,7 +149,7 @@ public class LargeImageView extends View
     @Override
     public boolean onTouchEvent(MotionEvent event)
     {
-        mDetector.onToucEvent(event);
+        mDetector.onTouchEvent(event);
         return true;
     }
 

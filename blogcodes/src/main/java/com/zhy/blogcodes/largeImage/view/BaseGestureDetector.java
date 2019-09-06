@@ -22,7 +22,7 @@ public abstract class BaseGestureDetector
     }
 
 
-    public boolean onToucEvent(MotionEvent event)
+    public boolean onTouchEvent(MotionEvent event)
     {
 
         if (!mGestureInProgress)
